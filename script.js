@@ -62,7 +62,7 @@ function getWeather(city) {
           </div>
             `;
     }
-  }, 500);
+  }, 1500);
 }
 function loadCity() {
   var currentCity = document.getElementById("inputCity").value;
