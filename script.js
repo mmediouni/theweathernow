@@ -53,7 +53,7 @@ function getWeather(city) {
                     </div>
                 </div>
                 <div class="right-panel panel">
-                    <img src="https://source.unsplash.com/800x600/?$${cityname}" alt="" width="160">
+                    <img src="https://source.unsplash.com/800x600/?${cityname}" alt="" width="160">
                 </div>
                 <div class="copyright">Developed by <a href="https://www.linkedin.com/in/m-mediouni/" target="_blank">Mohamed Mediouni</a>  <i class="fas fa-heart"></i> </div>
                 </div>
