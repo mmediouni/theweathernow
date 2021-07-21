@@ -11,7 +11,7 @@ function getWeather(city) {
     last_updated,
     condition_icon,
     condition_text;
-  fetch(`http://api.weatherapi.com/v1/current.json?key=${api}&q=${city}&aqi=no`)
+  fetch(`https://api.weatherapi.com/v1/current.json?key=${api}&q=${city}&aqi=no`)
     .then((response) => {
       return response.json();
     })
